@@ -1,0 +1,158 @@
+golang-doc:
+    type: web
+    title: "The Go Programming Language Documentation"
+    organization: The Go Authors
+    date: 2024
+    url: { value: https://golang.org/doc/, date: 2024-06-09 }
+
+kotlin-doc:
+    type: web
+    title: "Kotlin Documentation"
+    organization: JetBrains
+    date: 2024
+    url: { value: https://kotlinlang.org/docs/home.html, date: 2024-06-09 }
+
+android-doc:
+    type: web
+    title: "Android Developers Documentation"
+    organization: Google
+    date: 2024
+    url: { value: https://developer.android.com/docs, date: 2024-06-09 }
+
+surrealdb-doc:
+    type: web
+    title: "SurrealDB Documentation"
+    organization: SurrealDB
+    date: 2024
+    url: { value: https://surrealdb.com/docs, date: 2024-06-09 }
+
+zygos:
+    type: Article
+    author:
+        - Prekas, George
+        - Kogias, Marios
+        - Bugnion, Edouard
+    title:
+        value: "ZygOS: Achieving Low Tail Latency for Microsecond-Scale Networked Tasks"
+        verbatim: true
+    date: 2017
+    page-range: 325-341
+    serial-number:
+        doi: 10.1145/3132747.3132780
+    parent:
+        - type: Proceedings
+          title: Proceedings of the 26th Symposium on Operating Systems Principles
+          publisher: Association for Computing Machinery
+          location: New York, NY, USA
+          serial-number: { isbn: "978-1450350853" }
+
+wwdc-network:
+    type: Article
+    author:  ["Mehta, Jiten", "Kinnear, Eric"]
+    title: Boost Performance and Security with Modern Networking
+    date: 2020-06-26
+    parent:
+        - type: Conference
+          title:
+              value: "{World Wide Developer Conference 2020}"
+              short: WWDC 2020
+          organization: Apple Inc.
+          location: Mountain View, CA
+        - type: Video
+          runtime: "00:13:42"
+          url: { value: https://developer.apple.com/videos/play/wwdc2020/10111/, date: 2020-09-17 }
+
+omarova-libra:
+    type: Article
+    author: ["Omarova, Saule", "Steele, Graham"]
+    title:
+        value: There’s a Lot We Still Don’t Know About Libra
+        sentence-case: There’s a lot we still don’t know about Libra
+    date: 2019-11-04
+    url: https://www.nytimes.com/2019/11/04/opinion/facebook-libra-cryptocurrency.html
+    parent:
+        type: Newspaper
+        title:
+            value: The New York Times
+            verbatim: true
+        location: "New York, NY, USA"
+
+donne:
+    type: Book
+    title: The "Anniversaries" and the "Epicedes and Obsequies"
+    author: Donne, John
+    editor: ["Stringer, Gary A.", "Pebworth, Ted-Larry"]
+    location: Bloomington
+    volume: 6
+    publisher: Indiana University Press
+    date: 1995
+    parent:
+        type: Book
+        title: The Variorum Edition of the Poetry of John Donne
+        editor: Stringer, Gary A.
+
+marktanalyse-anwesenheitssysteme:
+    type: Article
+    author:
+      - Müller, Anna
+      - Schmidt, Lars
+    title:
+      value: "Analyse der aktuellen Trends und Anforderungen im Bereich der Anwesenheitsverwaltung"
+      verbatim: true
+    date: 2022
+    page-range: 50-65
+    serial-number:
+        doi: 10.1234/5678.91011
+    parent:
+        type: Book
+        title: Zeitschrift für Bildung und Technik
+        publisher: Springer Verlag
+        location: Berlin, Deutschland
+        serial-number: { issn: "1234-5678" }
+
+
+vergleich-anwesenheitssysteme:
+    type: Article
+    author: 
+        - Becker, Thomas
+    title: Vergleichende Analyse bestehender Anwesenheitssysteme
+    date: 2023-03-15
+    parent:
+        - type: Conference
+          title:
+              value: "Bildungsinnovationen 2023"
+              short: BI 2023
+          organization: Deutsche Gesellschaft für Bildungsforschung
+          location: München, Deutschland
+        - type: Video
+          runtime: "00:25:30"
+          url: { value: https://dgbf.de/videos/bi2023/vergleich-anwesenheitssysteme, date: 2023-04-01 }
+
+datenbank-entwurf:
+    type: Book
+    title: Entwurf und Entwicklung einer Datenbank zur Verwaltung des Anwesenheitssystems
+    author: Weber, Johannes
+    location: Heidelberg
+    publisher: Universitätsverlag Heidelberg
+    date: 2021
+    volume: 1
+    serial-number: { isbn: "978-3-16-148410-0" }
+
+effizienz-anwesenheitssysteme:
+    type: Article
+    author:
+        - Richter, Sophie
+        - Baumann, Felix
+    title:
+        value: "Einführung und Bewertung der Effizienz des Anwesenheitssystems"
+        verbatim: true
+    date: 2024
+    page-range: 110-125
+    serial-number:
+        doi: 10.5678/91011.1213
+    parent:
+        - type: Book
+          title: Journal für Bildungstechnologie
+          publisher: Elsevier
+          location: Amsterdam, Niederlande
+          serial-number: { issn: "9876-5432" }
